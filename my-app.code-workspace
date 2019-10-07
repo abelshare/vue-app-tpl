@@ -1,0 +1,81 @@
+// 插件安裝：
+// vscode-fileheader
+// Vetur
+// stylelint
+// Sass
+// Prettier - Code formatter
+// Path Intellisense
+// Material Icon Theme
+// markdownlint
+// Live Server
+// JavaScript (ES6) code snippets
+// HTML Snippets
+// HTML CSS Support
+// ESLint
+// Document This
+// CSS Peek
+// Bootstrap v4 Snippets
+// Auto Rename Tag
+// Auto Close Tag
+
+// 工作區配置
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "workbench.colorTheme": "Quiet Light",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 1,
+    "editor.wordWrapColumn": 200,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 24,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "files.autoSave": "onWindowChange",
+    "emmet.includeLanguages": {
+      "vue-html": "html",
+      "vue": "html",
+      "javascript": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    // vscode-fileheader
+    "fileheader.Author": "xuehua_li",
+    "fileheader.LastModifiedBy": "xuehua_li",
+    "fileheader.tpl": "/*\r\n * @Author: {author}\n * @Date: {createTime}\n * @Last Modified by: {lastModifiedBy}\n * @Last Modified time: {updateTime}\n */\n",
+    // eslint
+    "eslint.enable": true,
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.options": {
+      "extensions": [".js", ".jsx", ".vue"]
+    },
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      {
+        "language": "vue",
+        "autoFix": true
+      }
+    ],
+    // vetur
+    "vetur.format.defaultFormatter.html": "prettier",
+    "vetur.format.defaultFormatter.js": "none",
+    // git
+    "git.ignoreLimitWarning": true,
+    "git.autofetch": true,
+    //prettier
+    "prettier.tabWidth": 2,
+    "prettier.useTabs": false,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.bracketSpacing": true
+  }
+}

@@ -5,7 +5,9 @@ import store from './store';
 import './filters';
 
 // 全局信息
-window.appInfo = {};
+window.appInfo = {
+  version: process.env.VUE_APP_VERSION
+};
 
 // 第三方utils
 // import dayjs from 'dayjs';
